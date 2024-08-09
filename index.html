@@ -1,28 +1,35 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Link CDN-->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
     <title>Admio Pro</title>
   </head>
   <body>
-    <div class="container">
-      <nav>
-        <div class="nav__logo"><img class="logoicon" src="./admiologo.webp" alt="Logo Admio"></div>
-        <ul class="nav__links">
-          <li class="link"><a href="#">Inicio</a></li>
-          <li class="link"><a href="#">Sobre Nosotros</a></li>
-          <li class="link"><a href="#">Precios </a></li>
-          <li class="link"><a href="#">Recursos</a></li>
-        </ul>
-        <button class="btn">Comprar</button>
-      </nav>
-      <header class="header">
+    <header>
+        <nav>
+            <div class="nav__logo"><img class="logoicon" src="./assets/img/admio(png).webp" alt="Logo Admio"></div>
+            <ul class="nav__links">
+              <li class="link"><a href="#">Inicio</a></li>
+              <li class="link"><a href="./assets/html/about.html">Sobre Nosotros</a></li>
+              <li class="link"><a href="#">Precios </a></li>
+              <li class="link"><a href="#">Recursos</a></li>
+            </ul>
+            <button class="btn">Comprar</button>
+          </nav>
+    </header>
+    <main class="container">
+      <section class="header">
         <div class="content">
           <h1 class="tite">Automatiza hoy y brilla en la<br /><span class="span">organización de tus pacientes</span></h1>
           <p>
@@ -30,10 +37,10 @@
           </p>
           <button class="btn">Leer Más !</button>
         </div>
-      </header>
+      </section>
       <br>
       <section class="inicioimg">
-        <img src="./admiologo.webp" alt="Inicio de Admio">
+        <img src="./assets/img/admiologo.webp" alt="Inicio de Admio">
       </section>
       <br>
       <section class="informacion">
@@ -42,9 +49,14 @@
           <p>Potencia tu productividad con nuestra solución software líder en el mercado</p>
         </div>
         <div class="logoinfo">
-          <img src="./admio(png).webp" alt="Logo de Admio">
+          <img src="./assets/img/admio(png).webp" alt="Logo de Admio">
         </div>
       </section>
+      <br>
+      <section class="sectionadmio">
+        <h2 class="admiotitle">Admio Pro</h2>
+      </section>
+      <br>
       <section class="contaierinformacion">
         <div class="containetitles">
           <div class="titl">
@@ -54,42 +66,110 @@
           </div>
         </div>
       </section>
-      <br>
-      <section class="container_info">
-        <section class="container_section">
-          <section class="section_expediente">
-            <div class="infor_expedinete">
-              <div class="container_espediente_text">
-                <h1>Lorem ipsum dolor sit amet consectetur .</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam aperiam deserunt esse dolores similique ex</p>
-                <a href="#" class="botton_compra">Comprar</a>
-              </div>
-              <div >
-                <img src="./admio(png).webp" alt="Prueba">
-              </div>
-            </div>
-              <section class="container_card">
-                <div class="container_card_info">
-                  <div class="card_info">
-                    <img src="./admio(png).webp" alt="">
-                    <h1>TEXT</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam,</p>
-                  </div>
-                  <div class="card_info">
-                    <img src="./admio(png).webp" alt="">
-                    <h1>TEXT</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam,</p>
-                  </div>
-                  <div class="card_info">
-                    <img src="./admio(png).webp" alt="">
-                    <h1>TEXT</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam,</p>
-                  </div>
-                </div>
-              </section>
-          </section>
-        </section>
+      <section class="precios">
+        <div class="card">
+          <div class="header">
+            <span class="license">1 Mes</span>
+            <h2>3,500.0 DOP</h2>
+            <span class="duration">Admio Pro</span>
+            <a href="#" class="btn">Solicitar</a>
+          </div>
+          <ul class="features">
+            <li>
+              <img src="images/checkmark.png" />
+              <a href="#">Creación y seguimiento de tickets</a>
+            </li>
+            <li>
+              <img src="images/checkmark.png" />
+              <a href="#">Acceso a la administración de tickets</a>
+            </li>
+            <li>
+              <img src="images/checkmark.png" />
+              <a href="#">Panel de control en vivo</a>
+            </li>
+            <li>
+              <img src="images/checkmark.png" />
+              <a href="#">Proyección de turnos</a>
+            </li>
+            <li>
+              <img src="images/checkmark.png" />
+              <a href="#">Diseño Moderno</a>
+            </li>
+            <li>
+              <img src="images/checkmark.png" />
+              <a href="#">Reportes Diarios</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="header">
+            <span class="license">6 Meses</span>
+            <h2>18,000 DOP</h2>
+            <span class="duration">Admio Pro</span>
+            <a href="#" class="btn">Solicitar</a>
+          </div>
+          <ul class="features">
+            <li>
+              <img src="images/checkmark.png" />
+              <a href="#">Creación y seguimiento de tickets</a>
+            </li>
+            <li>
+              <img src="images/checkmark.png" />
+              <a href="#">Acceso a la administración de tickets</a>
+            </li>
+            <li>
+              <img src="images/checkmark.png" />
+              <a href="#">Panel de control en vivo</a>
+            </li>
+            <li>
+              <img src="images/checkmark.png" />
+              <a href="#">Proyección de turnos</a>
+            </li>
+            <li>
+              <img src="images/checkmark.png" />
+              <a href="#">Diseño Moderno</a>
+            </li>
+            <li>
+              <img src="images/checkmark.png" />
+              <a href="#">Reportes Diarios</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="header">
+            <span class="license">12 Meses</span>
+            <h2>30,000 DOP</h2>
+            <span class="duration">Admio Pro</span>
+            <a href="#" class="btn">Solicitar</a>
+          </div>
+          <ul class="features">
+            <li>
+              <img src="images/checkmark.png" />
+              <a href="#">Creación y seguimiento de tickets</a>
+            </li>
+            <li>
+              <img src="images/checkmark.png" />
+              <a href="#">Acceso a la administración de tickets</a>
+            </li>
+            <li>
+              <img src="images/checkmark.png" />
+              <a href="#">Panel de control en vivo</a>
+            </li>
+            <li>
+              <img src="images/checkmark.png" />
+              <a href="#">Proyección de turnos</a>
+            </li>
+            <li>
+              <img src="images/checkmark.png" />
+              <a href="#">Diseño Moderno</a>
+            </li>
+            <li>
+              <img src="images/checkmark.png" />
+              <a href="#">Reportes Diarios</a>
+            </li>
+          </ul>
+        </div>
       </section>
-    </div>
+    </main>
   </body>
 </html>
